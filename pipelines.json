@@ -26,12 +26,8 @@
                 "stagings":
                 [
                     {
-                        "connectorName": "protheus_carol",
-                        "stagingName": "fk7"
-                    },
-                    {
-                        "connectorName": "protheus_carol",
-                        "stagingName": "fk8"
+                        "connectorName": "conectora",
+                        "stagingName": "tabela1"
                     }
                 ]
             }
