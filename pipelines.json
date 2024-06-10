@@ -28,9 +28,13 @@
                     {
                         "connectorName": "protheus_carol",
                         "stagingName": "fk7"
+                    },
+                    {
+                        "connectorName": "protheus_carol",
+                        "stagingName": "fk8"
                     }
                 ]
-            },
+            }
         }
     ]
 }
