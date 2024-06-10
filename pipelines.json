@@ -1,0 +1,36 @@
+{
+    "defaults":
+    {
+        "cronExpressions": [],
+        "prepareScripts":[]
+    },
+    "pipelines":
+    [
+        {
+            "pipelineName": "fk7",
+            "pipelineDescription": "",
+            "outputDataModelName": "fk7",
+            "checkExistsDataToProcess": true,
+            "saveToCds": false,
+            "saveToUnified": true,
+            "saveToRealtime": false,
+            "sendToSubscriptions": false,
+            "timeZone": "America/Sao_Paulo",
+            "cronExpressions": [
+                "0 0 0 ? * * 2099"
+            ],
+            "processScript": "pipelines/fk7.csql",
+            "sourceEntities":
+            {
+                "dataModels": [],
+                "stagings":
+                [
+                    {
+                        "connectorName": "protheus_carol",
+                        "stagingName": "fk7"
+                    }
+                ]
+            },
+        }
+    ]
+}

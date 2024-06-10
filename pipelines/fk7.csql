@@ -1,0 +1,6 @@
+SELECT
+    protheus_pk AS protheuspk,
+    FK7_LOJA AS loja,
+    --metadata-v2--
+FROM
+    stg_protheus_carol_fk7 AS stg
